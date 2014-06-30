@@ -39,7 +39,9 @@ We would pull as many messages we can lay our hands on from the User's Facebook 
   
   
   One Sample Sentiment Analysis:
+  
  " I visited san fran today to compete at TECH DRAFT - I'm so excited and happy. BEST TIME OF MY LIFE! "
+ 
   Polarity
 
     pos: 0.8
