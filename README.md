@@ -33,7 +33,7 @@ We would pull as many messages we can lay our hands on from the User's Facebook 
    EG: If user only posted 10 messages in total to Facebook/Twitter etc withint the past 2 years, then we can generalize that the user is not that social online.
 
 
-2) We can get the User's Typical Mood, whether it be Positive, or Negative, or Neutreul by running text we data scrap/collect via HP sentiment analysis.
+2) Personality - We can get the User's Typical Mood, whether it be Positive, or Negative, or Neutreul by running text we data scrap/collect via HP sentiment analysis.
 
   EG: User has 90% Negative messages and 5% neutral, and 5%  positive, we can gerneralize that the user might be suffering from depression, so interview with care.
   
