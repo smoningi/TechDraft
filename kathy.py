@@ -22,17 +22,19 @@ for edu in soup.findAll("div", {"id":"profile-education"}):
         edu_obj["graduation"] = grad_date.contents[0].strip()
     education.append(edu_obj)
 
-url = 'http://www.linkedin.com/in/kdhir'
-dict={}
-for job in soup.findAll("div", class_="position   experience vevent vcard summary-current"):
+expDict = {}
+jobDict = {}
+jobsList = []
+for job in soup.findAll("div", {"class" : "position   experience vevent vcard summary-current"}):
     try:
-        dict["location"] = job.find("span", class_="location").contents[0]
+        jobDict["location"] = job.find("span", {"class": "location"}).contents[0]
     except:
-        dict["descr"] = job.find("p", class_=" description current-position").contents[0]
+        jobDict["descr"] = job.find("p", {"class" : " description current-position"}).contents[0]
     else:
-        dict["title"] = job.find("span", class_="title").contents[0]
-    print dict
-
+        jobDict["title"] = job.find("span", {"class" :"title"}).contents[0]
+    jobsList.append(jobDict)
+expDict["jobs"] = jobsList
+expDict["education"] = education
 
 o = open("outfile.json", "wb")
-o.write(json.dumps(education))
+o.write(json.dumps(expDict))
