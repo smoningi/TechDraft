@@ -46,6 +46,15 @@ We would pull as many messages we can lay our hands on from the User's Facebook 
 
     pos: 0.8
     neg: 0.2 
+    
+"OMG. Life Sucks...it is terrible... I just failed in physics test. CRUEL WORLD!!!!"
+
+Polarity
+
+    pos: 0.1
+    neg: 0.9 
+
+
   
   
   
