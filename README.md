@@ -22,7 +22,7 @@ How to run:
 
 
 
-Idea (Would have implemented if we had time) - Sentiment Analysis On Users' Online Feed 
+**Idea (Would have implemented if we had time) - Sentiment Analysis On Users' Online Feed **
 ================================
 
 This would fall under the bucket of Uniqueness Data.
