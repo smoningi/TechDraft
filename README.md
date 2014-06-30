@@ -3,7 +3,8 @@ This program collects data from an applicants linkedin profile, so the applicant
 How to run:
 
 
-
+Schema:
+{"jobs": [location, description, title], "education" [university, graduation date, degree, major]}
 
 
 
