@@ -55,7 +55,7 @@ Polarity
     neg: 0.9 
 
 
-  
+**SAMPLE Text Sentiment Analysis Online: http://text-processing.com/demo/sentiment/**
   
   
 
